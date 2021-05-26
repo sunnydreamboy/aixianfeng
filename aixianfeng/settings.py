@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'aixianfeng',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'admin',
         'HOST': 'localhost',
         'POST': '3306'
     }
@@ -125,4 +125,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 # STATIC_FILEDIR = [os.path.join(BASE_DIR,'static')]
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
-MDEIA_ROOT = os.path.join(BASE_DIR,r'static/mdeia')
+MDEIA_ROOT = os.path.join(BASE_DIR,r'static/upload')
